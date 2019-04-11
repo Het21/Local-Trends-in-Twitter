@@ -27,5 +27,4 @@ Note :- Here Android SDK is used to install the app on an android device, to ins
 2) Change the domain name in the adapter.xml to the ip address of your machine.
 3) Open server settings in eclipse and change server from localhost to the ip of your machine.  
 
-*woeid -> It is a unique number given to a particular location so as to detect different locations with their own unique id.
-It is provided by yahoo.
+*woeid -> A WOEID (Where On Earth IDentifier) is a unique 32-bit reference identifier, originally defined by GeoPlanet and now assigned by Yahoo!, that identifies any location on Earth.
