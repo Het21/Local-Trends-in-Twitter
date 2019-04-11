@@ -1,0 +1,58 @@
+<!DOCTYPE HTML><html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Local_Trends</title>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" name="viewport">
+    		<!--
+    			<link rel="shortcut icon" href="images/favicon.png">
+    			<link rel="apple-touch-icon" href="images/apple-touch-icon.png"> 
+    		-->
+        <link href="worklight/worklight.css" rel="stylesheet">
+        <link href="jqueryMobile/jquery.mobile-1.3.1.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <script>
+		// Define WL namespace.
+		var WL = WL ? WL : {};
+		/**
+		 * WLClient configuration variables.
+		 * Values are injected by the deployer that packs the gadget.
+		 */
+		 WL.StaticAppProps = {
+   "APP_DISPLAY_NAME": "Local_Trends",
+   "APP_ID": "Local_Trends",
+   "APP_SERVICES_URL": "\/apps\/services\/",
+   "APP_VERSION": "1.0",
+   "ENVIRONMENT": "android",
+   "LOGIN_DISPLAY_TYPE": "embedded",
+   "WORKLIGHT_NATIVE_VERSION": "859922228",
+   "WORKLIGHT_PLATFORM_VERSION": "7.1.0.0",
+   "WORKLIGHT_ROOT_URL": "\/apps\/services\/api\/Local_Trends\/android\/"
+};
+</script>
+		<script src="worklight/cordova.js"></script>
+		<script src="worklight/wljq.js"></script>
+		<script src="worklight/worklight.js"></script>
+		<script src="worklight/checksum.js"></script>
+		<script>window.$ = window.jQuery = WLJQ;</script>
+    		<script src="jqueryMobile/jquery.mobile-1.3.1.js"></script>
+    		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDF-z_tHOvGGFjw6xJH_W3TzlRcL9lam9U&amp;callback=initMap" type="text/javascript"></script>
+    </head>
+    <body style="display: none;">
+        <div data-role="page" id="page">
+            <div data-role="content" style="padding: 15px">
+                <button id="gettrends" onClick="gett();" value="From current location"></button>
+                <h4>or</h4>
+                <input id="address" placeholder="Enter a location" type="text">
+    				<button id="gettrends2" onClick="GetLocation();" value="Get Trends"></button>
+            </div>
+        </div>
+        <div data-role="page" id="dispPage">
+            <div data-role="content" style="padding: 15px">
+                <div id="mydisplay"></div>
+            </div>
+        </div>
+        <script src="js/initOptions.js"></script>
+    		<script src="js/main.js"></script>
+    		<script src="js/messages.js"></script>
+    </body>
+</html>
