@@ -20,12 +20,12 @@ Note :- Here Android SDK is used to install the app on an android device, to ins
 -> In 'php files' folder
 1) In the twitterapi.php set path of twitteroauth-master to wherever you have kept it.
 2) Put the twitterapi.php in www folder of wampserver
-3) Try running it on wamp, it should return a json object which has some details of 'Ahmedabad' including its woied* by default.
+3) Try running it on wamp, it should return a json object which has some details of 'Ahmedabad' including its woeid* by default.
 
 ->The 'emad project' folder
 1) It is the whole project which you can directly open in eclipse.
 2) Change the domain name in the adapter.xml to the ip address of your machine.
 3) Open server settings in eclipse and change server from localhost to the ip of your machine.  
 
-*woied -> It is a unique number given to a particular location so as to detect different locations with their own unique id.
+*woeid -> It is a unique number given to a particular location so as to detect different locations with their own unique id.
 It is provided by yahoo.
