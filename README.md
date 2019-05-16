@@ -1,6 +1,6 @@
 # Local-Trends-in-Twitter
 
-Local-Trends-in-Twitter is a hybrid mobile application which shows current trends ongoing on twitter on the basis of either of two parameters,  
+Local-Trends-in-Twitter is a hybrid mobile application which shows current trends (#) ongoing on twitter on the basis of either of two parameters,  
 1) User's current location.
 2) Desired location given as input by user.  
 
