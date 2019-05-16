@@ -5,7 +5,9 @@ Local-Trends-in-Twitter is a hybrid mobile application which shows current trend
 2) Desired location given as input by user.  
 
 All trends will be loaded and tweets of a trend will be displayed by tapping that particular trend.  
-This app can be installed on any mobile OS (Android,iOS,Windows) by simply selecting the platform while installing from eclipse.  
+This app can be installed on any mobile OS (Android,iOS,Windows) by simply selecting the platform while installing from eclipse.
+
+Tools and Technologies: IBM MobileFirst, PHP, JavaScript, HTML5, CSS
 
 # Requirements  
 ->Download and install eclipse with worklight server.  
